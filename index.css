@@ -5,9 +5,8 @@ body{
 
 .bar{
   width: 100px;
-  height: fill-available;
-  height: -moz-available;
-  height: -webkit-fill-available;  
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   background: black;
   display: flex;
   flex-direction: column;
@@ -19,7 +18,7 @@ body{
   height: 60px;
 }
 .red{
-  background: #fff;
+  background: blue;
 }
 .blue{
   background: blue;
