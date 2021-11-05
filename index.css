@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.bar{
+  width: 100px;
+  height: 100vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.i{
+  width: 60px;
+  height: 60px;
+}
+.red{
+  background: red;
+}
+.blue{
+  background: blue;
+}
+.yellow{
+  background: yellow;
+}
+.green{
+  background: green;
+}
+.pink{
+  background: pink;
+}
