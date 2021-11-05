@@ -5,7 +5,9 @@ body{
 
 .bar{
   width: 100px;
-  height: 100vh;
+  height: fill-available;
+  height: -moz-available;
+  height: -webkit-fill-available;  
   background: black;
   display: flex;
   flex-direction: column;
